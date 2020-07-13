@@ -1,0 +1,40 @@
+1.Docker installation on ubuntu 
+   
+   #sudo apt install docker.io
+   #sudo docker -version
+   #sudo systemctl status  docker
+   #sudo systemctl enable --now  docker
+   
+2. Get the folder containing Dockerfile and its dependent files from github
+
+   #git clone <github url>
+   
+3. Create Docker image by the below command:
+
+   #sudo docker build -t <image name> .
+   
+4. Check the docker image created
+   
+   #sudo docker images
+   
+   
+5. Run the docker image by the below command: 
+   
+   #sudo docker run -d -it -e POSTGRESQL_USER=user -e POSTGRESQL_PASSWORD=pass -e POSTGRESQL_DATABASE=db -p 5432:5432 -p 8080:8080 --name=<container name>  <image name>
+   
+6. Commands To check whether the container created is running or not:
+    
+   #sudo docker ps
+   
+7. Commands to check the postgres in the running container:
+
+   #sudo docker exec -it projectdmap1 bash
+   #psql -U postgres
+   #\q       //to exit from postgres kernel
+   #exit     //to exit from the container
+   
+8. Check the tomcat is running or not:
+
+   #Goto browser and type in the addreess bar: localhost:8080
+   
+

@@ -1,0 +1,5 @@
+sudo docker build -t project1 .
+sudo docker run -d -it -e POSTGRESQL_USER=user -e POSTGRESQL_PASSWORD=pass -e POSTGRESQL_DATABASE=db -p 5432:5432 -p 8080:8080 --name=projectdmap1 project1
+sudo docker exec -it projectdmap1 bash
+psql -U postgres
+check localhost:8080 on browser
