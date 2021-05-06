@@ -1,7 +1,7 @@
 Click == 7.0
 EbookLib == 0.17.1
 Flask == 1.0.3
-Flask-Cors == 3.0.8
+Flask-Cors == 3.0.9
 Flask-RESTful == 0.3.7
 IMAPClient == 2.1.0
 Jinja2 == 2.10.1
