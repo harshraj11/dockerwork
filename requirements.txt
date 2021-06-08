@@ -62,4 +62,4 @@ requests == 2.23.0
 opencv_python == 4.2.0.34
 pytest == 5.4.3
 pyjwt == 1.7.1
-Pillow == 6.2.0
+Pillow == 8.2.0
