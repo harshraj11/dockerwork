@@ -61,5 +61,5 @@ hvac == 0.10.3
 requests == 2.23.0
 opencv_python == 4.2.0.34
 pytest == 5.4.3
-pyjwt == 1.7.1
+pyjwt == 2.4.0
 Pillow == 6.2.0
