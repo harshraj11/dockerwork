@@ -22,7 +22,7 @@ XlsxWriter == 1.2.1
 altgraph == 0.17
 aniso8601 == 7.0.0
 argcomplete == 1.10.0
-arrow == 0.14.2
+arrow == 0.15.1
 beautifulsoup4 == 4.8.0
 bs4 == 0.0.1
 chardet == 3.0.4
